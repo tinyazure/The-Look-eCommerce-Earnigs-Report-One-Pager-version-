@@ -14,7 +14,7 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
 ```
 [gotocode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/Active_Customers%20(2).ipynb)
 
-Which are the Revenue for the 2Q2025?
+Which are the Revenue for the 2Q2025?  
 Purchases Per Day?  
 Deliveries in within 48 hours?
     

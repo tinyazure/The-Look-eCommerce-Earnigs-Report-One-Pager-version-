@@ -9,7 +9,7 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
 
   1Q) Which are the Unique Buyers for the 2Q2025 period in The Look eCommerce?  
   *1A)There are 10450 unique Buyers for the 2Q2025 period. Note: Depending the criteria you can define also as  Active customers.*  
-[GotoCode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/Active_Customers.ipynb)
+[GotoCode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/Active_Customers.ipynb)  
   2Q)Which are the Revenue for the 2Q2025?  
   3Q)Purchases Per Day?  
   4Q)Deliveries in within 48 hours?

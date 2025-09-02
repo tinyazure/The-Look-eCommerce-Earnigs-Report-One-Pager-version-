@@ -7,9 +7,12 @@ Publicly traded companies in the United States are required to comply with regul
 
 ## One Pager
 
-### Market Place Highlights
-
-## KPIs
+### KPIs
+  Which are the active customers for the 2Q2025?
+```sql
+--10450
+[gotocode](https://your-link-here.com)
+```
 
 ### Market Place Highlights
 

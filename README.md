@@ -13,7 +13,7 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
 'There are 10450 unique Buyers for the 2Q2025 period'
 'Note: Depending the criteria you can define also as  Active customers.'
 ```
-[gotocode]([https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/Active_Customers%20(2).ipynb])
+[gotocode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/commit/e36e030498d50d1bf44a331d79ea4b7c3a1e7991)
 
 Which are the Revenue for the 2Q2025?  
 Purchases Per Day?  

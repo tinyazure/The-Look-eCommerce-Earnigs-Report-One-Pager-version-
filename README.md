@@ -8,11 +8,9 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
 ## One Pager Report
 
 ### KPIs
-  1) Which are the Unique Buyers for the 2Q2025 period in The Look eCommerce?
-```sql
-'There are 10450 unique Buyers for the 2Q2025 period'
-'Note: Depending the criteria you can define also as  Active customers.'
-```
+  1Q) Which are the Unique Buyers for the 2Q2025 period in The Look eCommerce?
+  2A)There are 10450 unique Buyers for the 2Q2025 period. Note: Depending the criteria you can define also as  Active customers.
+
 Which are the Revenue for the 2Q2025?  
 Purchases Per Day?  
 Deliveries in within 48 hours?

@@ -11,9 +11,8 @@ Publicly traded companies in the United States are required to comply with regul
   Which are the active customers for the 2Q2025?
 ```sql
 --10450
-[gotocode](https://your-link-here.com)
 ```
-
+[gotocode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/Active_Customers%20(2).ipynb)
 ### Market Place Highlights
 
 ## Financial Metrics

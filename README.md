@@ -8,9 +8,10 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
 ## One Pager
 
 ### KPIs
-  Which are the active customers for the 2Q2025?
+  Which are the Unique Buyers for the 2Q2025 period in The Look eCommerce?
 ```sql
-10450
+There are 10450 unique Buyers for the 2Q2025 period.
+Note: Depending the criteria you can define also as  Active customers.
 ```
 [gotocode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/Active_Customers%20(2).ipynb)
 

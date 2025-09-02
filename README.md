@@ -1,3 +1,5 @@
+disclaimer:  The Look eComerce is a ficticious company and its a public google dataset, hosted in Google Cloud.
+
 <h1 align="center">📦The Look eCommerce: Earnings Report 1Q 2025  </h1>
 <div align="justify">
 Publicly traded companies as part of (SEC) compliance, every quarter, these companies must prepare and disclose detailed financial statements and earnings reports to their investors and the public. The primary purpose of these disclosures is to ensure transparency, enable investors to make informed decisions, and maintain trust in the financial markets. 

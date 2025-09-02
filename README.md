@@ -10,8 +10,15 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
 ### KPIs
   Which are the active customers for the 2Q2025?
 ```sql
---10450
+10450
 ```
+[gotocode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/Active_Customers%20(2).ipynb)
+
+Which are the Revenue for the 2Q2025?
+Purchases Per Day?  
+Deliveries in within 48 hours?
+    
+
 [gotocode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/Active_Customers%20(2).ipynb)
 ### Market Place Highlights
 

@@ -1,4 +1,4 @@
-disclaimer:  The Look eComerce is a ficticious company and its a public google dataset, hosted in Google Cloud.
+disclaimer:  The Look eComerce is a ficticious company with syntethic data and its hosted on a public google dataset, hosted in Google Cloud. https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce
 
 <h1 align="center">📦The Look eCommerce: Earnings Report 1Q 2025  </h1>
 <div align="justify">

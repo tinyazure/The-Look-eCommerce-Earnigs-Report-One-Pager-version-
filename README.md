@@ -5,7 +5,7 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
 
 ***
 
-## One Pager
+## One Pager Report
 
 ### KPIs
   Which are the Unique Buyers for the 2Q2025 period in The Look eCommerce?

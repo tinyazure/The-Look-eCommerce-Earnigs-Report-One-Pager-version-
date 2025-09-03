@@ -10,15 +10,15 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
 ## One Pager Report
 
   1Q) Which are the Unique Buyers for the 2Q2025 period in The Look eCommerce?  
-  *1A)There are **10450** unique Buyers for the 2Q2025 period. Note: Depending the criteria you can define also as  Active customers.*  
+  1A)There are **10450** unique Buyers for the 2Q2025 period. Note: Depending the criteria you can define also as  Active customers.*  
   [1) GotoCode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/1_Active_Customers.ipynb)  
   
   2Q)Which are the Revenue for the 2Q2025?  
-  *2Q)The Total Revenue for the 2Q2025 period is **u$ 0.871 M**, comming from shipped and completed orders.*  
+  2Q)The Total Revenue for the 2Q2025 period is **u$ 0.871 M**, comming from shipped and completed orders.*  
    [2) GotoCode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/2_Revenue_2Q2025.ipynb)  
    
-  3Q)Purchases Per Day? 
-  *3A) The are **154 purchases** per day for the 2Q2025 period.  
+  3Q)Purchases Per Day?  
+  3A) The are **154 purchases** per day for the 2Q2025 period.  
    [GotoCode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/3_Purchases_per_day_2Q2025.ipynb)   
    
   4Q)Deliveries in within 48 hours?

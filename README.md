@@ -22,7 +22,7 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
    [GotoCode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/3_Purchases_per_day_2Q2025.ipynb)   
    
   4Q)Deliveries in within 48 hours?
-  3A) The are **2468 purchases delivered in less of 48hs** for the 2Q2025 period.  
-  [GotoCode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/3_Purchases_per_day_2Q2025.ipynb)   
+  4A) The are **2468 purchases delivered in less of 48hs** for the 2Q2025 period.  
+  [4) GotoCode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/4_Deliveries_less_48_hs_2Q2025.ipynb)   
 
 ## Full Report

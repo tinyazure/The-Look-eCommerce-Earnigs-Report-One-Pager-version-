@@ -9,20 +9,21 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
 
 ## One Pager Report
 
-  1Q) Which are the Unique Buyers for the 2Q2025 period in The Look eCommerce?  
-  1A)There are **10450 unique Buyers** for the 2Q2025 period. Note: Depending the criteria you can define also as  Active customers.  
-  [1) GotoCode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/1_Active_Customers.ipynb)  
-  
-  2Q)Which are the Revenue for the 2Q2025?  
-  2Q)The **Total Revenue  is u$ 0.871 M**, for the 2Q2025 period comming from shipped and completed orders.  
-   [2) GotoCode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/2_Revenue_2Q2025.ipynb)  
-   
-  3Q)Purchases Per Day?  
-  3A) The are **154 purchases per day** for the 2Q2025 period.  
-   [GotoCode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/3_Purchases_per_day_2Q2025.ipynb)   
-   
-  4Q)Deliveries in within 48 hours?
-  4A) The are **2468 purchases delivered in less of 48hs** for the 2Q2025 period.  
-  [4) GotoCode](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/4_Deliveries_less_48_hs_2Q2025.ipynb)   
+1Q) Who are the unique buyers for the second quarter of 2025 at The Look eCommerce?  
+1A) There were **10,450 unique buyers** during 2Q2025. Depending on the criteria used, this can also refer to active customers.  
+See the code
+
+2Q) What was the total revenue for 2Q2025? How does it compare to 2Q2024?  
+2A) **The total revenue** for 2Q2025 was $0.881 million, generated from shipped and completed orders.  
+**The revenue growth was $0.416 million**, an increase of **89%** compared to 2Q2024.  
+See the code
+
+3Q) How many purchases were made per day?  
+3A) There were **154 purchases per day** during the 2Q2025 period.  
+See the code
+
+4Q) How many deliveries were made within 48 hours?  
+4A) There were **2,468 purchases delivered within 48 hours** during 2Q2025.  
+See the code
 
 ## Full Report

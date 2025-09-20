@@ -17,6 +17,7 @@ The Dataset contains 8 tables:
   5. orders
   6. products
   7. users
+     
 For the porpouse of this project no all tables will be used.
 
 ## Q2 2025 Mercado Libre One Pager Earnings Report

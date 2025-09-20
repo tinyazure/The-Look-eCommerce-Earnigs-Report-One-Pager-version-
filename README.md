@@ -1,4 +1,3 @@
-disclaimer:  The Look eComerce is a ficticious company with syntethic data and its hosted on a public google dataset, hosted in Google Cloud. https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce
 
 <h1 align="center">📦The Look eCommerce: Earnings Report 2Q 2025  </h1>
 <div align="justify">
@@ -8,6 +7,7 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
 ***
 
 ## One Pager Report
+<img src="https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/images/One_Pager_Report_Meli_2Q2025.jpg" width="400" height="540">
 
 1Q) Who are the unique buyers for the second quarter of 2025 at The Look eCommerce?  
 1A) There were **10,450 unique buyers** during 2Q2025. Depending on the criteria used, this can also refer to active customers.  

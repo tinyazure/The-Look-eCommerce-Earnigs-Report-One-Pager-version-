@@ -5,7 +5,8 @@ theLook eCommerce  </h1>
 <div align="justify">
 TheLook is a fictional eCommerce clothing platform created by the Looker team and hosted on Google Cloud. For this project, It´s assumed TheLook operates as a publicly traded company and tackled the challenge of creating a SEC-compliant earnings report for Q2 2025. For this SQL will be used to query key performance indicators (KPIs) and prepare an investor-facing earnings report for TheLook, benchmarking results against Mercado Libre’s industry standards. <br><h6>***Note: Public companies are required by the SEC to disclose detailed financial statements and earnings reports each quarter for transparency with investors and the public.***
 </div>
-
+## Table of Contents
+  
 ## theLook eCommerce
 The dataset contains information about customers, products, orders, logistics, web events and digital marketing campaigns. The contents of this dataset are synthetic, and are provided to industry practitioners for the purpose of product discovery, testing, and evaluation.
 ***

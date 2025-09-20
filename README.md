@@ -3,7 +3,7 @@
   
 The Look eCommerce  </h1>
 <div align="justify">
-Publicly traded companies as part of (SEC) compliance, every quarter, these companies must prepare and disclose detailed financial statements and earnings reports to their investors and the public. SQL will be used to query the KPI´s and prepare the report using as a industry benchmarck Mercado Libre Earnings Report.
+Publicly traded companies as part of (SEC) compliance, every quarter,must prepare and disclose detailed financial statements and earnings reports to their investors and the public. SQL will be used to query the KPI´s and prepare the Earnings Report of the focticious eCommerce company called The Look, using as a industry benchmarck Mercado Libre Report.
 </div>
 
 ***

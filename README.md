@@ -8,8 +8,8 @@ TheLook is a fictional eCommerce clothing platform created by the Looker team an
 ## Table of Contents
   
 ## theLook eCommerce Dataset
-The dataset contains information about customers, products, orders, logistics, web events and digital marketing campaigns. The contents of this dataset are synthetic, and are provided to industry practitioners for the purpose of product discovery, testing, and evaluation.[Visit Dataset Overview](https://console.cloud.google.com/bigquery(cameo:product/bigquery-public-data/thelook-ecommerce)?project=my-gcp-data-projects).
-The Dataset contains 8 tables:
+The dataset contains information about customers, products, orders, logistics, web events and digital marketing campaigns. The contents of this dataset are synthetic, and are provided to industry practitioners for the purpose of product discovery, testing, and evaluation.[Visit Dataset Overview](https://console.cloud.google.com/bigquery(cameo:product/bigquery-public-data/thelook-ecommerce)?project=my-gcp-data-projects).  
+The Dataset contains 8 tables:  
   1. distribution_centers
   2. events
   3. inventory_items
@@ -17,7 +17,7 @@ The Dataset contains 8 tables:
   5. orders
   6. products
   7. users
-
+For the porpouse of this project no all tables will be used.
 
 ## Q2 2025 Mercado Libre One Pager Earnings Report
 

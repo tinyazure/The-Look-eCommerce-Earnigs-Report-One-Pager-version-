@@ -1,7 +1,9 @@
 
-<h1 align="center">📦The Look eCommerce: Earnings Report 2Q 2025  </h1>
+<h1 align="center">📦Earnings Report 2Q 2025:
+  
+The Look eCommerce  </h1>
 <div align="justify">
-Publicly traded companies as part of (SEC) compliance, every quarter, these companies must prepare and disclose detailed financial statements and earnings reports to their investors and the public. The primary purpose of these disclosures is to ensure transparency, enable investors to make informed decisions, and maintain trust in the financial markets. 
+Publicly traded companies as part of (SEC) compliance, every quarter, these companies must prepare and disclose detailed financial statements and earnings reports to their investors and the public. SQL will be used to query the KPI´s and prepare the report using as a industry benchmarck Mercado Libre Earnings Report.
 </div>
 
 ***

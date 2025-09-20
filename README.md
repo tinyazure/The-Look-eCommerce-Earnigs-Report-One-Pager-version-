@@ -10,9 +10,9 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
 
 ## Mercado Libre One Pager Earnings Report
 
-| Image           | Comment                |
+| Q2 Report|KPI's|
 |-----------------|-----------------------|
-| <img src="https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/images/One_Pager_Report_Meli_2Q2025.jpg" width="400" height="540">    | This is your comment about the image |  
+| <img src="https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/images/One_Pager_Report_Meli_2Q2025.jpg" width="400" height="540"> | The report is built on the eCommerce ndustry Kpis.<br> For the project the following kpis will be used 4 KPI´s:<br> 1)Revenue & Revenue Growth YoY<br>2)Unique Buyers<br>3)Purchase per secong (per day will be used)<br>4)Deliveries in less 48 hs<br>|  
 
 1Q) Who are the unique buyers for the second quarter of 2025 at The Look eCommerce?  
 

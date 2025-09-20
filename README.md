@@ -12,7 +12,7 @@ The dataset contains information about customers, products, orders, logistics, w
 [Click and read the short instructions to enable your account(gmail)](https://cloud.google.com/bigquery/docs/sandbox#setup).<br>
 
 The Dataset contains 8 tables:<br>  1. distribution_centers<br>  2. events<br>3. inventory_items<br>4. order_items<br>  5. orders<br>  6. products<br> 7. users       
-For the porpouse of this project no all tables will be used.<br>[Click to View the Dataset if you have an enabled google account(gmail)](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce&page=dataset&project=airy-passkey-472721-b0).<br>
+For the porpouse of this project not all tables will be used.<br>[Click to View the Dataset if you have an enabled google account(gmail)](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce&page=dataset&project=airy-passkey-472721-b0).<br>
 
 ## Q2 2025 Mercado Libre One Pager Earnings Report
 

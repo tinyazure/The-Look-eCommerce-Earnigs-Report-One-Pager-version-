@@ -8,8 +8,14 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
 
 ***
 
-## One Pager Report
-<img src="https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/images/One_Pager_Report_Meli_2Q2025.jpg" width="400" height="540"> 1Q) Who are the unique buyers for the second quarter of 2025 at The Look eCommerce?  
+## Mercado Libre One Pager Earnings Report
+
+| Image           | Comment                |
+|-----------------|-----------------------|
+| <img src="https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/images/One_Pager_Report_Meli_2Q2025.jpg" width="400" height="540">    | This is your comment about the image |  
+
+1Q) Who are the unique buyers for the second quarter of 2025 at The Look eCommerce?  
+
 1A) There were **10,450 unique buyers** during 2Q2025. Depending on the criteria used, this can also refer to active customers.  
 See the code
 

@@ -26,5 +26,5 @@ See the code
 4A) There were **2,468 purchases delivered within 48 hours** during 2Q2025.  
 See the code
 
-## Full Report
-<img src="https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/images/Full_Report_meli-q2-25-earnings-presentation.pdf" width="700" height="700">
+
+

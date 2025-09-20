@@ -3,13 +3,12 @@
   
 theLook eCommerce  </h1>
 <div align="justify">
-TheLook is a fictional eCommerce clothing platform created by the Looker team and hosted on Google Cloud. For this project, It´s assumed TheLook operates as a publicly traded company and tackled the challenge of creating a SEC-compliant earnings report for Q2 2025. For this SQL will be used to query key performance indicators (KPIs) and prepare an investor-facing earnings report for TheLook, benchmarking results against Mercado Libre’s industry standards. <br><h6>***Note: Public companies are required by the SEC to disclose detailed financial statements and earnings reports each quarter for transparency with investors and the public.***
-</div>
+TheLook is a fictional eCommerce clothing platform created by the Looker team and hosted on Google Cloud. For this project, It´s assumed TheLook operates as a publicly traded company and tackled the challenge of creating a SEC-compliant earnings report for Q2 2025. For this SQL will be used to query key performance indicators (KPIs) and prepare an investor-facing earnings report for TheLook, benchmarking results against Mercado Libre’s industry standards.  <h6>***Note: Public companies are required by the SEC to disclose detailed financial statements and earnings reports each quarter for transparency with investors and the public.***</div>
+  
 ## Table of Contents
   
 ## theLook eCommerce
 The dataset contains information about customers, products, orders, logistics, web events and digital marketing campaigns. The contents of this dataset are synthetic, and are provided to industry practitioners for the purpose of product discovery, testing, and evaluation.
-***
 
 ## Q2 2025 Mercado Libre One Pager Earnings Report
 
@@ -17,7 +16,6 @@ The dataset contains information about customers, products, orders, logistics, w
 |-----------------|-----------------------|
 | <img src="https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/images/One_Pager_Report_Meli_2Q2025.jpg" width="400" height="540"> | The report is based on key performance indicators (KPIs) relevant to the eCommerce industry. For this project, the following four KPIs will be queried and analyzed using SQL and Google BigQuery Public dataset:<br><br><br><br>1. Revenue and Year-over-Year Revenue Growth<br>2. Number of Unique Buyers<br>3. Purchases per Second (calculated on a daily basis)<br>4. Deliveries completed in under 48 hours
 
-*** 
 ## Q2 2025 The Look eCommerce Earnings figures and KPI´s 
 
 1. Revenue and Year-over-Year Revenue Growth

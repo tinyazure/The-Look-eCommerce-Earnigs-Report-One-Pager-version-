@@ -1,9 +1,9 @@
 
 <h1 align="center">📦Earnings Report 2Q 2025:
   
-The Look eCommerce  </h1>
+theLook eCommerce  </h1>
 <div align="justify">
-Publicly traded companies as part of (SEC) compliance, every quarter,must prepare and disclose detailed financial statements and earnings reports to their investors and the public. SQL will be used to query the KPI´s and prepare the Earnings Report of the focticious eCommerce company called The Look, using as a industry benchmarck Mercado Libre Report.
+TheLook is a fictional eCommerce clothing platform created by the Looker team and hosted on Google Cloud. In this project, I assumed TheLook operates as a publicly traded company and tackled the challenge of creating a SEC-compliant earnings report for Q2 2025. Using SQL, I queried key performance indicators (KPIs) and prepared an investor-facing earnings report for TheLook, benchmarking results against Mercado Libre’s industry standards. Public companies are required by the SEC to disclose detailed financial statements and earnings reports each quarter for transparency with investors and the public.
 </div>
 
 ## theLook eCommerce

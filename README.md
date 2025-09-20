@@ -12,7 +12,7 @@ Publicly traded companies as part of (SEC) compliance, every quarter, these comp
 
 | Q2 Report|KPI's|
 |-----------------|-----------------------|
-| <img src="https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/images/One_Pager_Report_Meli_2Q2025.jpg" width="400" height="540"> | The report is built on the eCommerce ndustry Kpis.<br> For the project the following kpis will be used 4 KPI´s:<br> 1)Revenue & Revenue Growth YoY<br>2)Unique Buyers<br>3)Purchase per secong (per day will be used)<br>4)Deliveries in less 48 hs<br>|  
+| <img src="https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/images/One_Pager_Report_Meli_2Q2025.jpg" width="400" height="540"> | The report is based on key performance indicators (KPIs) relevant to the eCommerce industry. For this project, the following four KPIs will be analyzed:<br><br><br><br>1.Revenue and Year-over-Year Revenue Growth<br>2.Number of Unique Buyers<br>3.Purchases per Second (calculated on a daily basis)<br>4.Deliveries completed in under 48 hours
 
 1Q) Who are the unique buyers for the second quarter of 2025 at The Look eCommerce?  
 

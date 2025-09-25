@@ -25,9 +25,10 @@ For the porpouse of this project not all tables will be used.<br>[Click to View 
 1. Revenue and Year-over-Year Revenue Growth
    * Net Revenue = $0.850 m
    * Growth YoY = +86%
-   * [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/587d9738d6aea0edf28a4f027f5af86d323fdc1a/1_Revenue%20and%20Year-over-Year%20Revenue%20Growth.md) 
-     
-3. Number of Unique Buyers
-4. Purchases per Second (calculated on a daily basis)
-5. Deliveries completed in under 48 hours
+   * [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/587d9738d6aea0edf28a4f027f5af86d323fdc1a/1_Revenue%20and%20Year-over-Year%20Revenue%20Growth.md)  
+2. Number of Unique Buyers  
+   * 610  
+     [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/2_Number%20of%20Unique%20Buyers.md)   
+5. Purchases per Second (calculated on a daily basis)
+6. Deliveries completed in under 48 hours
 

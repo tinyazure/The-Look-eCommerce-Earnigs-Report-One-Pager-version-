@@ -18,7 +18,7 @@ For the porpouse of this project not all tables will be used.<br>[Click to View 
 
 | Q2 2025 Report|KPI's to be replicated|
 |-----------------|-----------------------|
-| <img src="https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/images/One_Pager_Report_Meli_2Q2025.jpg" width="400" height="540"> | The report is based on key performance indicators (KPIs) relevant to the eCommerce industry. For this project, the following four KPIs will be queried and analyzed using SQL and Google BigQuery Public dataset:<br><br><br><br>1. Revenue and Year-over-Year Revenue Growth<br>2. Number of Unique Buyers<br>3. Purchases per Second (calculated on a daily basis)<br>4. Deliveries completed in under 48 hours
+| <img src="https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/images/One_Pager_Report_Meli_2Q2025.jpg" width="500" height="640"> | The report is based on key performance indicators (KPIs) relevant to the eCommerce industry. For this project, the following four KPIs will be queried and analyzed using SQL and Google BigQuery Public dataset:<br><br><br><br>1. Revenue and Year-over-Year Revenue Growth<br>2. Number of Unique Buyers<br>3. Purchases per Second (calculated on a daily basis)<br>4. Deliveries completed in under 48 hours
 
 ## Q2 2025 The Look eCommerce Earnings figures and KPI´s 
 

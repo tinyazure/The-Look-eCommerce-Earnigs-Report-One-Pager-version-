@@ -86,10 +86,9 @@ group by
 
 
 ## Insights:
- * The net Revenue Growth is 82% (+ u$ 0.385 m). This is explained on more Quantities of orders and purchases received. Prices are relative flat YoY. Recommended to the UX team streamline the web interaction looking to increase the ticket with sales up. 
- 
- * Shipped and Procceded makes the 66% of the net revenue. This represents significant risks on futher returned and cancelled orders. It´s recommended for the oppertations teams to close as fast the received orders for example avoiding stocks out in theis wharehouses and negotiate with suppliers for better lead times.
+ * Net revenue growth reached 82% (+$0.385 million), primarily driven by an increase in the number of orders and purchases. Year-over-year prices remained relatively stable. It is recommended that the UX team optimize website interactions to encourage higher average order values and boost sales.
 
+ * Shipped and processed orders account for 66% of net revenue, which poses considerable risk for potential returns and cancellations. The operations team is advised to expedite order fulfillment, minimize stockouts in warehouses, and negotiate improved lead times with suppliers.
 
 
 

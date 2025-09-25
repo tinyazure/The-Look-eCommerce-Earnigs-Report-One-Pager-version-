@@ -43,8 +43,8 @@ where
 | 0     | Total Net Revenue|              | 850689.67   |
 
 ## 2nd Task:
- *Calculate 2Q 2025 and 2Q 2024 Total Net Revenue
- *Calculate for each period, count orders and average order value sing GROUP BY, WHERE, clauses, count command and Date/Time format Functions, and UNION ALL
+ * Calculate 2Q 2025 and 2Q 2024 Total Net Revenue
+ * Calculate for each period, count orders and average order value sing GROUP BY, WHERE, clauses, count command and Date/Time format Functions, and UNION ALL
 
 ```sql
 select
@@ -85,8 +85,10 @@ group by
 
 
 
-
-
+## Insights:
+ * The net Revenue Growth is 82% (+ u$ 0.385 m). This is explained on more Quantities of orders and purchases received. Prices are relative flat YoY. Recommended to the UX team streamline the web interaction looking to increase the ticket with sales up. 
+ 
+ * Shipped and Procceded makes the 66% of the net revenue. This represents significant risks on futher returned and cancelled orders. It´s recommended for the oppertations teams to close as fast the received orders for example avoiding stocks out in theis wharehouses and negotiate with suppliers for better lead times.
 
 
 

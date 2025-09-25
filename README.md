@@ -23,7 +23,11 @@ For the porpouse of this project not all tables will be used.<br>[Click to View 
 ## Q2 2025 The Look eCommerce Earnings figures and KPI´s 
 
 1. Revenue and Year-over-Year Revenue Growth
-2. Number of Unique Buyers
-3. Purchases per Second (calculated on a daily basis)
-4. Deliveries completed in under 48 hours
+   * Net Revenue = $0.850 m
+   * Growth YoY = +86%
+     [Solution]() 
+     
+3. Number of Unique Buyers
+4. Purchases per Second (calculated on a daily basis)
+5. Deliveries completed in under 48 hours
 

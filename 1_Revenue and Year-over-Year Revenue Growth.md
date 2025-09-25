@@ -4,7 +4,7 @@ This queries calculates key metrics including net revenue, order count, and aver
 
 ## 1st Task:
   * Calculate Q2 2025 Net Revenue Total Net Revenue
-  * Also we will add below the and it´s breakdown using GROUP BY, WHERE, clause and Time format Functions Using UNION ALL
+  * Also we will add below the and it´s breakdown using GROUP BY, WHERE, clause and Date/Time format Functions format Functions Using UNION ALL
     
 ```sql
   FORMAT_DATETIME('%Y-%QQ', created_at) as year_quarter,
@@ -42,6 +42,55 @@ where
 | 2     | 2025-2Q          | Shipped      | 334935.89   |
 | 0     | Total Net Revenue|              | 850689.67   |
 
+## 2nd Task:
+ *Calculate 2Q 2025 and 2Q 2024 Total Net Revenue
+ *Calculate for each period, count orders and average order value sing GROUP BY, WHERE, clauses, count command and Date/Time format Functions, and UNION ALL
 
+```sql
+select
+  FORMAT_DATETIME('%Y-%QQ', created_at) as year_quarter,
+  round(sum(sale_price),2)  as net_revenue,
+  count(distinct(order_id)) as count_order_id,
+  round(round(sum(sale_price),2) / count(distinct(order_id)),2) as average_order_value
+  from
+  bigquery-public-data.thelook_ecommerce.order_items
+where
+  extract(QUARTER FROM created_at) = 2 and
+  extract(YEAR FROM created_at) = 2025 and
+  status IN ('Complete','Shipped', 'Processing')
+group by
+  year_quarter
 
+UNION ALL
+select
+  FORMAT_DATETIME('%Y-%QQ', created_at) as year_quarter,
+  round(sum(sale_price),2)  as net_revenue,
+  count(distinct(order_id)) as count_order_id,
+  round(round(sum(sale_price),2) / count(distinct(order_id)),2) as average_order_value
+from
+  bigquery-public-data.thelook_ecommerce.order_items
+where
+  extract(QUARTER FROM created_at) = 2 and
+  extract(YEAR FROM created_at) = 2024 and
+  status IN ('Complete','Shipped', 'Processing')
+group by
+  year_quarter
 ```
+
+## OutPut:
+| index | year_quarter | net_revenue | count_order_id | average_order_value |
+|-------|--------------|-------------|---------------|--------------------|
+| 0     | 2024-2Q      | 465285.61   | 5440          | 85.53              |
+| 1     | 2025-2Q      | 850689.67   | 10100         | 84.23              |
+
+
+
+
+
+
+
+
+
+
+
+

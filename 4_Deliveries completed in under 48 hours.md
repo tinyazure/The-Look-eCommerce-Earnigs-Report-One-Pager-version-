@@ -67,4 +67,4 @@ order by year_quarter
 |--------------|----------|
 | 2025-2Q      | 610   |
 ## Insights
-  * 13% <=48 de total ordenes despachadas
+  * Total orders delivered less than 48 hours represents 13% from total orders that are shipped with complete or returned status.

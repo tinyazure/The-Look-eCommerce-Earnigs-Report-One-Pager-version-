@@ -21,7 +21,8 @@ Do not have your gmail account enabled? please: [Click and read the short instru
 
 | List of tables |Picture|
 |-----------------|-----------------------|
-| The dataset contains 7 tables:<br>distribution_centers<br>events<br>inventory_items<br>order_items<br>orders<br>products<br>users<br>|<img src="https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/images/One_Pager_Report_Meli_2Q2025.jpg" width="500" height="640"> |
+| The dataset contains 7 tables:<br><br><br>1_distribution_centers<br>2_events<br>3_inventory_items<br>4_order_items<br>5_orders<br>6_products<br>7_users<br>|<img width="373" height="291" alt="image" src="https://github.com/user-attachments/assets/2f6758bf-4279-499c-b71b-86b4dec4a52f" />|
+
 
 For the porpouse of this project not all tables will be used.<br>   
 

@@ -29,8 +29,8 @@ For the porpouse of this project not all tables will be used.<br>[Click to View 
 2. Number of Unique Buyers  
    * 610  
      [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/2_Number%20of%20Unique%20Buyers.md)   
-3. Purchases per Day (reemplace for Second)
-   * 150
+3. Purchases per Day (reemplace for Second)  
+   * 150  
      [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/3_Purchases%20per%20Second%20(calculated%20on%20daily%20basis).md)
 6. Deliveries completed in under 48 hours
 

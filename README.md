@@ -18,9 +18,13 @@ The dataset contains information about customers, products, orders, logistics, w
 [Click for more dataset details if you have an enabled google account(gmail)](https://console.cloud.google.com/bigquery(cameo:product/bigquery-public-data/thelook-ecommerce)?project=my-gcp-data-projects).<br>
 
 Do not have your gmail account enabled? please: [Click and read the short instructions to enable your account(gmail)](https://cloud.google.com/bigquery/docs/sandbox#setup).<br>  
-  
-The Dataset contains 8 tables:<br>  1. distribution_centers<br>  2. events<br>3. inventory_items<br>4. order_items<br>  5. orders<br>  6. products<br> 7. users       
-For the porpouse of this project not all tables will be used.<br>  
+
+| List of tables |Picture|
+|-----------------|-----------------------|
+| The dataset contains 7 tables:<br>distribution_centers<br>events<br>inventory_items<br>order_items<br>orders<br>products<br>users<br>|<img src="https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/images/One_Pager_Report_Meli_2Q2025.jpg" width="500" height="640"> |
+
+For the porpouse of this project not all tables will be used.<br>   
+
 [Click to View and access the Dataset if you have an enabled google account(gmail)](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce&page=dataset&project=airy-passkey-472721-b0).<br>
 
 ## Q2 2025 Mercado Libre One Pager Earnings Report

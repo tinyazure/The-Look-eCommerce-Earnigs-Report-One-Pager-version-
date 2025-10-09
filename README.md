@@ -6,7 +6,7 @@ theLook eCommerce  </h1>
 
   
 ## Table of Contents
-[Overview](#overview)
+[Overview](#overview)  
 [theLook eCommerce Dataset](#thelook-ecommerce-dataset)  
 [Q2 2025 Mercado Libre One Pager Earnings Report](#q2-2025-mercado-libre-one-pager-earnings-report)  
 [Q2 2025 The Look eCommerce Earnings figures and KPI´s ](#q2-2025-the-look-ecommerce-earnings-figures-and-kpis)  

@@ -3,12 +3,16 @@
   
 theLook eCommerce  </h1>
 <div align="justify">
-TheLook is a fictional eCommerce clothing platform created by the Looker team and hosted on Google Cloud. The project will assumes TheLook operates as a publicly traded company and tackled the challenge of creating a SEC-compliant earnings report for Q2 2025. For this SQL will be used to query key performance indicators (KPIs) and prepare an investor-facing earnings report for TheLook, benchmarking results against Mercado Libre’s industry standards.  <h6>***Note: Public companies are required by the SEC to disclose detailed financial statements and earnings reports each quarter for transparency with investors and the public.***</div>
+
   
 ## Table of Contents
+[Overview](#overview)
 [theLook eCommerce Dataset](#thelook-ecommerce-dataset)  
 [Q2 2025 Mercado Libre One Pager Earnings Report](#q2-2025-mercado-libre-one-pager-earnings-report)  
 [Q2 2025 The Look eCommerce Earnings figures and KPI´s ](#q2-2025-the-look-ecommerce-earnings-figures-and-kpis)  
+
+## Overview
+TheLook is a fictional eCommerce clothing platform created by the Looker team and hosted on Google Cloud. The project will assumes TheLook operates as a publicly traded company and tackled the challenge of creating a SEC-compliant earnings report for Q2 2025. For this SQL will be used to query key performance indicators (KPIs) and prepare an investor-facing earnings report for TheLook, benchmarking results against Mercado Libre’s industry standards.  <h6>***Note: Public companies are required by the SEC to disclose detailed financial statements and earnings reports each quarter for transparency with investors and the public.***</div>
 ## theLook eCommerce Dataset
 The dataset contains information about customers, products, orders, logistics, web events and digital marketing campaigns. The contents of this dataset are synthetic, and are provided to industry practitioners for the purpose of product discovery, testing, and evaluation.<br>[Click for more dataset details if you have an enabled google account(gmail)](https://console.cloud.google.com/bigquery(cameo:product/bigquery-public-data/thelook-ecommerce)?project=my-gcp-data-projects).<br>
 [Click and read the short instructions to enable your account(gmail)](https://cloud.google.com/bigquery/docs/sandbox#setup).<br>

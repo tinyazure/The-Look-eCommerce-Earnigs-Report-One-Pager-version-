@@ -1,5 +1,10 @@
 # 2025 2Q Active Customers Query
 This query identifies distinct users who placed orders in the second quarter of 2025 within the thelook_ecommerce dataset. It joins the `users` and `orders` tables to link users with their purchase activity and then aggregates the results by year and quarter.
+##1st task
+aca poner total
+##2nd task
+sin la subquery
+##3rd task
 ```sql
 select
   count(user_id) as count_user_id,
@@ -27,6 +32,9 @@ ORDER BY
 group by
   year_quarter
 ```
+## Output
 |index|count\_user\_id|year\_quarter|
 |---|---|---|
 |0|11516|2025-2Q|
+## Insigths
+Cuantos total registered??

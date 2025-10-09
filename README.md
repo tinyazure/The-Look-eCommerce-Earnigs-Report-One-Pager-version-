@@ -22,15 +22,16 @@ For the porpouse of this project not all tables will be used.<br>[Click to View 
 
 ## Q2 2025 The Look eCommerce Earnings figures and KPI´s 
 
-1. Revenue and Year-over-Year Revenue Growth
+1. Q2 2025 Revenue and Year-over-Year Revenue Growth
    * Net Revenue = $0.850 m
    * Growth YoY = +86%
    * [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/587d9738d6aea0edf28a4f027f5af86d323fdc1a/1_Revenue%20and%20Year-over-Year%20Revenue%20Growth.md)  
-2. Number of Unique Buyers  
-   * 610  
-     [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/2_Number%20of%20Unique%20Buyers.md)   
-3. Purchases per Day (reemplace for Second)  
+2. Q2 2025 Number of Unique Buyers  
+   *   
+3. Q2 2025 Purchases per Day (reemplace for Second)  
    * 150  
      [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/3_Purchases%20per%20Second%20(calculated%20on%20daily%20basis).md)
-6. Deliveries completed in under 48 hours
-
+4. Q2 2025 Deliveries completed in under 48 hours
+    *  610  
+      [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/4_Deliveries%20completed%20in%20under%2048%20hours.md)
+   

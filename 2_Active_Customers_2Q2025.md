@@ -88,4 +88,4 @@ group by
 |0|11539|2025-2Q|
 
 ## Insigths
-Cuantos total registered??
+ * From 100K registered customers only 11.5k made purchases on Q2 2025.

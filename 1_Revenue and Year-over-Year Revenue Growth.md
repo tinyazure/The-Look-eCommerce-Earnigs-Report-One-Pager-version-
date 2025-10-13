@@ -1,16 +1,17 @@
 # 2Q 2025 Revenue and Year-over-Year Revenue Grow <br>
 
-This queries calculates key metrics including net revenue, order count, and average order value for Q2 of 2024 and 2025 from the order_items table. It filters for orders with 'Complete', 'Shipped', or 'Processing' statuses within the specified quarters and years. The results are presented by year and quarter, providing a comparative view of performance between the two periods.<br>
+These queries calculates key metrics including net revenue, order count, and average order value for Q2 of 2024 and 2025 from the order_items table. It filters for orders with 'Complete', 'Shipped', or 'Processing' statuses within the specified quarters and years. The results are presented by year and quarter, providing a comparative view of performance between the two periods.<br>
 
 ## 1st Task:
-  * Calculate Q2 2025 Net Revenue Total Net Revenue
-  * Also we will add below the and it´s breakdown using GROUP BY, WHERE, clause and Date/Time format Functions format Functions Using UNION ALL
+  * Calculate Q2 2025 Net Revenue 
+  * Will be used GROUP BY for aggregation, WHERE to filter records for Q2 2025, Date/Time format Functions and UNION ALL to combine two selecte statements.
     
 ```sql
+select
   FORMAT_DATETIME('%Y-%QQ', created_at) as year_quarter,
   status as order_status,
   round(sum(sale_price),2)  as net_revenue,
-  from
+from
   bigquery-public-data.thelook_ecommerce.order_items
 where
   extract(QUARTER FROM created_at) = 2 and
@@ -26,7 +27,7 @@ select
   "Total Net Revenue" as year_quarter,
   "" as order_status,
   round(sum(sale_price),2)  as net_revenue,
-  from
+from
   bigquery-public-data.thelook_ecommerce.order_items
 where
   extract(QUARTER FROM created_at) = 2 and
@@ -35,12 +36,12 @@ where
 
 ```  
 ## OutPut:
-| index | year_quarter      | order_status | net_revenue |
-|-------|------------------|--------------|-------------|
-| 1     | 2025-2Q          | Processing   | 227759.43   |
-| 3     | 2025-2Q          | Complete     | 287994.35   |
-| 2     | 2025-2Q          | Shipped      | 334935.89   |
-| 0     | Total Net Revenue|              | 850689.67   |
+|index|year\_quarter|order\_status|net\_revenue|
+|---|---|---|---|
+|0|Total Net Revenue||811853\.77|
+|1|2025-2Q|Processing|206568\.27|
+|2|2025-2Q|Complete|281970\.2|
+|3|2025-2Q|Shipped|323315\.3|
 
 ## 2nd Task:
  * Calculate 2Q 2025 and 2Q 2024 Total Net Revenue
@@ -52,7 +53,7 @@ select
   round(sum(sale_price),2)  as net_revenue,
   count(distinct(order_id)) as count_order_id,
   round(round(sum(sale_price),2) / count(distinct(order_id)),2) as average_order_value
-  from
+from
   bigquery-public-data.thelook_ecommerce.order_items
 where
   extract(QUARTER FROM created_at) = 2 and
@@ -78,11 +79,10 @@ group by
 ```
 
 ## OutPut:
-| index | year_quarter | net_revenue | count_order_id | average_order_value |
-|-------|--------------|-------------|---------------|--------------------|
-| 0     | 2024-2Q      | 465285.61   | 5440          | 85.53              |
-| 1     | 2025-2Q      | 850689.67   | 10100         | 84.23              |
-
+|index|year\_quarter|net\_revenue|count\_order\_id|average\_order\_value|
+|---|---|---|---|---|
+|0|2024-2Q|459723\.81|5379|85\.47|
+|1|2025-2Q|811853\.77|9444|85\.97|
 
 
 ## Insights:

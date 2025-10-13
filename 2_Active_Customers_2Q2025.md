@@ -52,7 +52,7 @@ group by
 
 
 
-##2nd task
+## 3rd task
 ```sql
 select
   count(user_id) as count_user_id,

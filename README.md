@@ -39,16 +39,16 @@ For the porpouse of this project not all tables will be used.<br>
 1. Q2 2025 Revenue and Year-over-Year Revenue Growth:  
    * Net Revenue = $0.850 m
    * Growth YoY = +86%  
-     [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/587d9738d6aea0edf28a4f027f5af86d323fdc1a/1_Revenue%20and%20Year-over-Year%20Revenue%20Growth.md)  
+     [SQL Query Code](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/587d9738d6aea0edf28a4f027f5af86d323fdc1a/1_Revenue%20and%20Year-over-Year%20Revenue%20Growth.md)  
 2. Q2 2025 Number of Unique Buyers:    
    * 11516  
-     [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/2_Active_Customers_2Q2025.md)  
+     [SQL Query Code](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/2_Active_Customers_2Q2025.md)  
 4. Q2 2025 Purchases per Day (reemplace for Second):    
    * 150  
-     [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/3_Purchases%20per%20Second%20(calculated%20on%20daily%20basis).md)
+     [SQL Query Code](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/3_Purchases%20per%20Second%20(calculated%20on%20daily%20basis).md)
 5. Q2 2025 Deliveries completed in under 48 hours:  
-    *  610  
-      [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/4_Deliveries%20completed%20in%20under%2048%20hours.md)
+   * 610    
+      [SQL Query Code](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/4_Deliveries%20completed%20in%20under%2048%20hours.md)
    
 ## Final Presentation
 <br>

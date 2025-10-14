@@ -26,3 +26,4 @@ group by
 
 ## Insight:
  * There are 6 purchases per Hour and 150 purchases a Day.
+ * Knowing that the Average Ticket is about $85 (from the Query) we can deduce that the eLook in each hour generates $510 in Revenue.

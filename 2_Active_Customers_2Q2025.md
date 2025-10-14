@@ -1,8 +1,8 @@
 # 2025 2Q Active Customers Query
 This query identifies distinct users who placed orders in the second quarter of 2025 within the thelook_ecommerce dataset. It joins the `users` and `orders` tables to link users with their purchase activity and then aggregates the results by year and quarter.  
 ## 1st task:
-  * Calculate Total of distinct Registered Users
-  * Will be used the distinct count on the table users
+  * Calculate Total of distinct Registered Users in the eLook Database.
+  * Will be used the distinct count on the table users.
 ```sql
 select
   count(distinct U.id) AS user_id,  
@@ -16,8 +16,8 @@ from
 
 ## 2nd task:
   * The output of the last query only give us the total registered users.
-  * Need to know the users who made purchases on the 2Q 2025 period.
-  * Will be used Join Functions
+  * Need to know the registered users which of them made purchases on the 2Q 2025 period.
+  * Will be used left Join to bring the item tables and get the count of orders made by each user in Q2 2025.
 ```sql
 select
   distinct U.id AS user_id,
@@ -53,6 +53,8 @@ group by
 
 
 ## 3rd task
+ *Aggreate the list using subquery and count.
+ *To be more insightfull we will also calculate the average order made by each customer
 ```sql
 select
   count(user_id) as count_user_id,
@@ -83,9 +85,10 @@ group by
 
 ## Output
 
-|index|count\_user\_id|year\_quarter|
-|---|---|---|
-|0|11539|2025-2Q|
+|index|year\_quarter|orders|user\_id|average\_order\_by\_act\_cust|
+|---|---|---|---|---|
+|0|2025-2Q|12795|11606|1\.1|
 
 ## Insigths
- * From 100K registered customers only 11.5k made purchases on Q2 2025.
+ * From 100K registered customers, 11.5k made purchases on Q2 2025.
+ * In average Active customers made a 1.10 purchase in the period. 

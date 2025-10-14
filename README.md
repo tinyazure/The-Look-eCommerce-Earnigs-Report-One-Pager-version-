@@ -49,3 +49,5 @@ For the porpouse of this project not all tables will be used.<br>
     *  610  
       [Query](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/4_Deliveries%20completed%20in%20under%2048%20hours.md)
    
+## Final Presentation in PDF  
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/2f6758bf-4279-499c-b71b-86b4dec4a52f" />

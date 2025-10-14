@@ -51,9 +51,9 @@ group by
 
 
 
-## 3rd task
- *Aggreate the list using subquery and count.
- *To be more insightfull we will also calculate the average order made by each customer
+## 3rd Task:
+  * Aggregate the results from the previous query to get the total number of active customers and orders in 2Q 2025 using subquery.
+  * Average number of orders made by each active customer in that period will be added for more insights and context.
 ```sql
 select
   count(user_id) as count_user_id,

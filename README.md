@@ -9,8 +9,8 @@ theLook eCommerce  </h1>
 [Overview](#overview)  
 [theLook eCommerce Dataset](#thelook-ecommerce-dataset)  
 [Q2 2025 Mercado Libre One Pager Earnings Report](#q2-2025-mercado-libre-one-pager-earnings-report)  
-[Q2 2025 The Look eCommerce Earnings figures and KPI´s ](#q2-2025-the-look-ecommerce-earnings-figures-and-kpis) 
-[Final Presentation](#final-presentation)
+[Q2 2025 The Look eCommerce Earnings figures and KPI´s ](#q2-2025-the-look-ecommerce-earnings-figures-and-kpis)   
+[Final Presentation ](#final-presentation)
 
 ## Overview
 theLook is a fictional eCommerce clothing platform created by the Looker/Google team hosted on Google Cloud (uses Synthetic eCommerce and Digital Marketing data). The project will assume that theLook operates as a publicly traded company and the operations and analytics team are chalenged on creating a SEC-compliant earnings report for Q2 2025. For this SQL will be used to query key performance indicators (KPIs) against the dataset and prepare an investor-facing earnings report for theLook. As a industry benchmark the report will use Mercado Libre’s finantial reports.  <h6>***Note: Public companies are required by the SEC to disclose detailed financial statements and earnings reports each quarter for transparency with investors and the public.***</div>

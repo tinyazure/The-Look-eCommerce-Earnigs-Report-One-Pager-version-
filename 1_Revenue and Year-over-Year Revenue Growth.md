@@ -1,10 +1,11 @@
 # 2Q 2025 Revenue and Year-over-Year Revenue Grow <br>
 
-These queries calculates key metrics including net revenue, order count, and average order value for Q2 of 2024 and 2025 from the order_items table. It filters for orders with 'Complete', 'Shipped', or 'Processing' statuses within the specified quarters and years. The results are presented by year and quarter, providing a comparative view of performance between the two periods.<br>
+> This query calculates net revenue, order count, and average order value for Q2 of 2024 and 2025 from the `order_items` table. It filters  orders with 'Complete', 'Shipped', or 'Processing' statuses within the specified quarters and years. The results are presented by year and quarter, providing a comparative view of performance between the two periods.
+<br>
 
 ## 1st Task:
-  * Calculate Q2 2025 Net Revenue 
-  * Will be used GROUP BY for aggregation, WHERE to filter records for Q2 2025, Date/Time format Functions and UNION ALL to combine two selecte statements.
+ * Calculate Q2 2025 Net Revenue by Order Status and the 2025 aggregated net revenue.
+ * Using GROUP BY, WHERE clause and Date/Time format functions and UNION ALL.
     
 ```sql
 select
@@ -44,8 +45,8 @@ where
 |3|2025-2Q|Shipped|323315\.3|
 
 ## 2nd Task:
- * Calculate 2Q 2025 and 2Q 2024 Total Net Revenue
- * Calculate for each period, count orders and average order value sing GROUP BY, WHERE, clauses, count command and Date/Time format Functions, and UNION ALL
+ * Calculate 2Q 2025 and 2Q 2024 at a agregated Total Net Revenue level.
+ * Calculate for each period, count orders and average order value sing GROUP BY, WHERE, clauses, count command and Date/Time format Functions, and UNION ALL.
 
 ```sql
 select

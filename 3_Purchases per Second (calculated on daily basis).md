@@ -25,4 +25,4 @@ group by
 |0|2025-2Q|13649|91|150\.0|6\.0|
 
 ## Insight:
-There are 6 purchases per Hour and 150 purchases a Day.
+ * There are 6 purchases per Hour and 150 purchases a Day.

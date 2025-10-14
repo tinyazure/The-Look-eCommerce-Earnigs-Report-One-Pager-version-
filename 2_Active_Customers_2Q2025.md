@@ -15,9 +15,8 @@ from
 |0|100000|
 
 ## 2nd task:
-  * The output of the last query only give us the total registered users.
-  * Need to know the registered users which of them made purchases on the 2Q 2025 period.
-  * Will be used left Join to bring the item tables and get the count of orders made by each user in Q2 2025.
+  * The output of the previous query only pulls the total registered users (it´s not equals to active).
+  * Need to know the registered users who made purchases in the 2Q 2025 period(active customers). This will be done by using a left join with the orders table to count the orders made by each user in Q2 2025.
 ```sql
 select
   distinct U.id AS user_id,

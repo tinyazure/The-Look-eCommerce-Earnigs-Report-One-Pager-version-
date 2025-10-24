@@ -58,7 +58,7 @@ For the porpouse of this project not all tables will be used.<br>
        -The mean delivery time is 96 hours, and performance can be improved. Approximately 50% of deliveries took up to 129 hours.<br>
    [SQL Query Code](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/4_Deliveries%20completed%20in%20under%2048%20hours.md)
    
-## Final Presentation
+## Final Presentation & Recommendations
 
 | Q2 2025 Report|Recommentations|
 |-----------------|-----------------------|

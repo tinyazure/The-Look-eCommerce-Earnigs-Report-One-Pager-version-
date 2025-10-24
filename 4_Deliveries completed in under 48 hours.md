@@ -38,6 +38,9 @@ order by
 4635 rows × 5 columns
 
 ## 2nd Task:
+ * Create a subquery to get agregations.
+ * Count the number of orders that meet the criteria from the first task.
+ * Group the counts by year and quarter.
 ```sql
 select
 year_quarter as year_quarter,
@@ -66,37 +69,6 @@ order by year_quarter
 | year_quarter | Count_order_id | 
 |--------------|----------|
 | 2025-2Q      | 610   |
-
-## 2nd Task:
- * Create a subquery to get agregations.
- * Count the number of orders that meet the criteria from the first task.
- * Group the counts by year and quarter.
-
-```sql
-select
-year_quarter as year_quarter,
-count(order_id) as count_order_id,
-from
-(
-select
-  format_datetime("%Y-%QQ",created_at)as year_quarter,
-  order_id as order_id,
-  created_at as created_at,
-  delivered_at as delivered_at,
-  TIMESTAMP_DIFF(delivered_at,created_at, HOUR) AS delivery_time
-from
-`bigquery-public-data.thelook_ecommerce.orders`
-where
-  status in ('Complete','Returned') and
-  EXTRACT(QUARTER FROM created_at) = 2 and
-  extract(YEAR FROM created_at) = 2025 and
-  TIMESTAMP_DIFF(delivered_at,created_at, HOUR) <= 48
-order by
-  created_at asc
-)
-group by year_quarter
-order by year_quarter
-```
 
 ## Insights
 Based on the analysis of 2025 Q2 orders with 'Complete' or 'Returned' status:

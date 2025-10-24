@@ -9,7 +9,7 @@ select
 from
   bigquery-public-data.thelook_ecommerce.users U
 ```
-## OutPut:
+
 |index|distinct_count_user_id|
 |---|---|
 |0|100000|
@@ -39,7 +39,7 @@ ORDER BY
 group by
   year_quarter
 ```
-## Output ##
+
 |index|user\_id|orders|year\_quarter|
 |---|---|---|---|
 |0|31|1|2025-2Q|
@@ -48,8 +48,6 @@ group by
 |---|---|---|---|
 |11537|99990|1|2025-2Q|
 |11538|99993|1|2025-2Q|
-
-
 
 ## 3rd Task:
   * Aggregate the results from the previous query to get the total number of active customers and orders in 2Q 2025 using subquery.
@@ -81,8 +79,6 @@ ORDER BY
 group by
   year_quarter
 ```
-
-## Output
 
 |index|year\_quarter|orders|user\_id|average\_order\_by\_act\_cust|
 |---|---|---|---|---|

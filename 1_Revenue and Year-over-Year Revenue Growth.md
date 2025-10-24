@@ -86,10 +86,10 @@ group by
 
 
 ## Insights:
- * Net revenue growth reached 82% (+$0.385 million), primarily driven by an increase in the number of orders and purchases. Year-over-year prices remained relatively stable. It is recommended that the UX team optimize website interactions to encourage higher average order values and boost sales.
-
- * Shipped and processed orders account for 66% of net revenue, which poses considerable risk for potential returns and cancellations. The operations team is advised to expedite order fulfillment, minimize stockouts in warehouses, and negotiate improved lead times with suppliers.
-
+* Net revenue growth vs. Q22024 reached +82% (+$0.385 million), primarily driven by an increase in the number of orders and purchases. 
+* Shipped and processed orders account for 66% of net revenue, which poses considerable risk for potential returns and cancellations. 
+* Year-over-year prices remained relatively stable. It is recommended that the UX team optimize website interactions to encourage higher average order values and boost sales.
+* The operations team is advised to expedite order fulfillment to minimize Shipped and processed times, minimize stockouts in warehouses, and negotiate improved lead times with suppliers.
 
 
 

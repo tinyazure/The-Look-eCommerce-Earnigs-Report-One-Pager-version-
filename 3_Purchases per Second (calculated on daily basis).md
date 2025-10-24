@@ -1,5 +1,5 @@
 # 2025Q2 Purchases per Day
-This SQL query calculate the total purchases per day and purchases per hour by agregatting the total of different orders dividing by total of days in the period.
+This SQL query analyzes the order_items table from the bigquery-public-data.thelook_ecommerce dataset to calculate the number of orders and purchases per day and hour for the second quarter of 2025.
 
 ## 1st Task:
   * For the query will be used count agregations, distinct count and grouping by formated date.

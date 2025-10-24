@@ -59,6 +59,8 @@ For the porpouse of this project not all tables will be used.<br>
    [SQL Query Code](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/4_Deliveries%20completed%20in%20under%2048%20hours.md)
    
 ## Final Presentation
-<br>
-<img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/cd1da922-ef3b-46be-9d75-fb9c065c2ee1" />
+
+| Q2 2025 Report|Recommentations|
+|-----------------|-----------------------|
+| <img width="275" height="350" alt="image" src="https://github.com/user-attachments/assets/271eabf0-2ead-450b-b8b7-0b37e7866d90" /> | T
 

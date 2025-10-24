@@ -36,7 +36,7 @@ where
   status IN ('Complete','Shipped', 'Processing')
 
 ```  
-## OutPut:
+
 |index|year\_quarter|order\_status|net\_revenue|
 |---|---|---|---|
 |0|Total Net Revenue||811853\.77|
@@ -79,7 +79,6 @@ group by
   year_quarter
 ```
 
-## OutPut:
 |index|year\_quarter|net\_revenue|count\_order\_id|average\_order\_value|
 |---|---|---|---|---|
 |0|2024-2Q|459723\.81|5379|85\.47|

@@ -5,7 +5,7 @@
 
 ## 1st Task:
  * Calculate Q2 2025 Net Revenue by Order Status and the 2025 aggregated net revenue.
- * Using GROUP BY, WHERE clause and Date/Time format functions and UNION ALL.
+ * Using GROUP BY, WHERE clause and Date/Time format functions and UNION ALL, to get the aggregated overview in only one table.
     
 ```sql
 select

@@ -22,7 +22,6 @@ order by
   created_at asc
 ```
 
-## OutPut:
 | year_quarter | order_id | created_at                | delivered_at              | delivery_time |
 |--------------|----------|--------------------------|---------------------------|---------------|
 | 2025-2Q      | 109364   | 2025-04-01 00:31:00+00:00| 2025-04-03 00:05:00+00:00 | 47            |
@@ -64,7 +63,6 @@ order by
 group by year_quarter
 order by year_quarter
 ```
-## OutPut:
 | year_quarter | Count_order_id | 
 |--------------|----------|
 | 2025-2Q      | 610   |
@@ -108,7 +106,7 @@ Based on the analysis of 2025 Q2 orders with 'Complete' or 'Returned' status:
 *   2166 orders were delivered above the average delivery time of 96 hours, with an average delivery time of 129 hours (or 5.4 days).
 *   It is recommended to investigate the operational processes for the 2166 orders with delivery times exceeding the average to identify areas for improvement and reduce delivery times.
 
-## Extra Queries for more Business Context
+## Extra Queries for more Insghts and Business Context
   * Calculate the delivery Average time for the period.
   * Calculate the count of delivered orderes above the average.
 ```sql
@@ -136,5 +134,38 @@ from
     created_at asc
   )
 ```
+|index|total\_orders|avg\_delivery\_hours|avg\_delivery\_days|
+|---|---|---|---|
+|0|4266|96\.0|3\.5|
 
+```sql
+%%bigquery --project {project_id}
+select 
+  count(distinct order_id) as total_orders,
+  round(AVG(delivery_time_hours),0) as avg_delivery_hours,
+  round(AVG(delivery_time_days),1) as avg_delivery_days
+from
+  (
+  select
+    format_datetime("%Y-%QQ",created_at)as year_quarter,
+    order_id as order_id,
+    created_at as created_at,
+    delivered_at as delivered_at,
+    TIMESTAMP_DIFF(delivered_at,created_at, HOUR) AS delivery_time_hours,
+    TIMESTAMP_DIFF(delivered_at,created_at, DAY) AS delivery_time_days
+  from
+  `bigquery-public-data.thelook_ecommerce.orders`
+  where
+    status in ('Complete','Returned') and
+    EXTRACT(QUARTER FROM created_at) = 2 and
+    extract(YEAR FROM created_at) = 2025 
+  order by
+    created_at asc
+  )
+  where 
+  delivery_time_hours >= 96
+```
+|index|total\_orders|avg\_delivery\_hours|avg\_delivery\_days|
+|---|---|---|---|
+|0|2166|129\.0|4\.9|
 

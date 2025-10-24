@@ -6,6 +6,7 @@ These queries counts the number of orders completed or returned in the second qu
  * Calculate the delivery time in hours for each order using the difference between delivered and created dates.
  * Filter for orders with a delivery time of 48 hours or less.
 ```sql
+#Delivery time in hours breakdown by orders_id for the Q22025 period.
 select
   format_datetime("%Y-%QQ",created_at)as year_quarter,
   order_id as order_id,
@@ -21,7 +22,6 @@ where
 order by
   created_at asc
 ```
-
 | year_quarter | order_id | created_at                | delivered_at              | delivery_time |
 |--------------|----------|--------------------------|---------------------------|---------------|
 | 2025-2Q      | 109364   | 2025-04-01 00:31:00+00:00| 2025-04-03 00:05:00+00:00 | 47            |
@@ -42,6 +42,7 @@ order by
  * Count the number of orders that meet the criteria from the first task.
  * Group the counts by year and quarter.
 ```sql
+#Delivery time in hours aggregated level for Q22025 period.
 select
 year_quarter as year_quarter,
 count(order_id) as count_order_id,

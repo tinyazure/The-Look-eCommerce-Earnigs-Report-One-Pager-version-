@@ -38,10 +38,16 @@ For the porpouse of this project not all tables will be used.<br>
 
 1. Q2 2025 Revenue and Year-over-Year Revenue Growth:  
    * Net Revenue = $0.850 m
-   * Growth YoY = +86%  
+   * Growth YoY = +86%
+   * Insights:<br>
+       -Revenue is growing based on more quantity of purchases vs same period last year, but average sales ticket remains flat.<br>
+       -High risk on future returns and cancellations given that more than 50% of orders are in processing or shipped status.<br>     
      [SQL Query Code](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/587d9738d6aea0edf28a4f027f5af86d323fdc1a/1_Revenue%20and%20Year-over-Year%20Revenue%20Growth.md)  
 2. Q2 2025 Number of Unique Buyers:    
-   * 11516  
+   * 11516
+   * Insights:<br>
+       -Low puchasing frequencies of active customer during the period and also low quatitie of items inclued in the cart for each order.4 purchases is the maximun number of time and active customer<br>
+       -Only 104 active customers from a total of 11.5k made purchases between 3 and 4 times.<br>   
      [SQL Query Code](https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report/blob/main/2_Active_Customers_2Q2025.md)  
 4. Q2 2025 Purchases per Day (reemplace for Second):    
    * 150  

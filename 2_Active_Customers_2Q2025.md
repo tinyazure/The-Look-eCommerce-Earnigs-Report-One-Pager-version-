@@ -1,5 +1,5 @@
 # 2025 2Q Active Customers Query
-This query identifies distinct users who placed orders in the second quarter of 2025 within the thelook_ecommerce dataset. It joins the `users` and `orders` tables to link users with their purchase activity and then aggregates the results by year and quarter.  
+> These queries identifies distinct users who placed orders in the second quarter of 2025 within the thelook_ecommerce dataset. It joins the `users` and `orders` tables to link users with their purchase activity and then aggregates the results by year and quarter.  
 ## 1st task:
 *   Calculate Total of distinct Registered Users in the eLook Database.
 *   This will be done by using a distinct count on the table.

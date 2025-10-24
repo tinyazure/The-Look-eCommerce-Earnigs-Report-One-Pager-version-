@@ -1,8 +1,10 @@
 # 2025Q2 Deliveries in within 48 hours Query
-This query counts the number of orders completed or returned in the second quarter of 2025 that were delivered within 48 hours. It groups the results by year and quarter, using the orders table from the look_ecommerce dataset.
+These queries counts the number of orders completed or returned in the second quarter of 2025 that were delivered within 48 hours. Also groups the results by year and quarter, using the orders table from the look_ecommerce dataset in order to get aggregations.
 
 ## 1st Task:
-  * Calculate the list of all orders during the Q2 2025 period.
+ * Retrieve unique orders with 'Complete' or 'Returned' status.
+ * Calculate the delivery time in hours for each order using the difference between delivered and created dates.
+ * Filter for orders with a delivery time of 48 hours or less.
 ```sql
 select
   format_datetime("%Y-%QQ",created_at)as year_quarter,
@@ -66,5 +68,73 @@ order by year_quarter
 | year_quarter | Count_order_id | 
 |--------------|----------|
 | 2025-2Q      | 610   |
+
+## 2nd Task:
+ * Create a subquery to get agregations.
+ * Count the number of orders that meet the criteria from the first task.
+ * Group the counts by year and quarter.
+
+```sql
+select
+year_quarter as year_quarter,
+count(order_id) as count_order_id,
+from
+(
+select
+  format_datetime("%Y-%QQ",created_at)as year_quarter,
+  order_id as order_id,
+  created_at as created_at,
+  delivered_at as delivered_at,
+  TIMESTAMP_DIFF(delivered_at,created_at, HOUR) AS delivery_time
+from
+`bigquery-public-data.thelook_ecommerce.orders`
+where
+  status in ('Complete','Returned') and
+  EXTRACT(QUARTER FROM created_at) = 2 and
+  extract(YEAR FROM created_at) = 2025 and
+  TIMESTAMP_DIFF(delivered_at,created_at, HOUR) <= 48
+order by
+  created_at asc
+)
+group by year_quarter
+order by year_quarter
+```
+
 ## Insights
-  * Total orders delivered less than 48 hours represents 13% from total orders that are shipped with complete or returned status.
+Based on the analysis of 2025 Q2 orders with 'Complete' or 'Returned' status:
+
+*   Out of 4266 total orders, 631 orders were delivered within 48 hours, representing approximately 14.8% of the total.
+*   The average delivery time for all 4266 orders in 2025 Q2 was 96 hours (or 3.5  days).
+*   2166 orders were delivered above the average delivery time of 96 hours, with an average delivery time of 129 hours (or 5.4 days).
+*   It is recommended to investigate the operational processes for the 2166 orders with delivery times exceeding the average to identify areas for improvement and reduce delivery times.
+
+## Extra Queries for more Business Context
+  * Calculate the delivery Average time for the period.
+  * Calculate the count of delivered orderes above the average.
+```sql
+select 
+  count(distinct order_id) as total_orders,
+  round(AVG(delivery_time_hours),0) as avg_delivery_hours,
+  round(AVG(delivery_time_days),1) as avg_delivery_days
+from
+  (
+  select
+    format_datetime("%Y-%QQ",created_at)as year_quarter,
+    order_id as order_id,
+    created_at as created_at,
+    delivered_at as delivered_at,
+    TIMESTAMP_DIFF(delivered_at,created_at, HOUR) AS delivery_time_hours,
+    TIMESTAMP_DIFF(delivered_at,created_at, DAY) AS delivery_time_days
+  from
+  `bigquery-public-data.thelook_ecommerce.orders`
+  where
+    status in ('Complete','Returned') and
+    EXTRACT(QUARTER FROM created_at) = 2 and
+    extract(YEAR FROM created_at) = 2025 #and#
+    #TIMESTAMP_DIFF(delivered_at,created_at, HOUR) <= 48#
+  order by
+    created_at asc
+  )
+```
+
+

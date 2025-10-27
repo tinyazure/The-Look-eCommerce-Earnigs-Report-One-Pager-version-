@@ -80,8 +80,9 @@ Based on the analysis of 2025 Q2 orders with 'Complete' or 'Returned' status:
 *   It is recommended to investigate the operational processes for the 2166 orders with delivery times exceeding the average to identify areas for improvement and reduce delivery times.
 
 ## Extra Queries for more Insghts and Business Context
-  * Calculate the delivery Average time for the period.
+  * Calculate the delivery Average time for the period and other aggregations.
   * Calculate the count of delivered orderes above the average.
+  * Identify orders delivered above the average to find opportunities for reducing the delivery time.
 ```sql
 select
   count(distinct order_id) as total_orders,

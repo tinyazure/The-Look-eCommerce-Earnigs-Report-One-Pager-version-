@@ -61,6 +61,7 @@ For the porpouse of this project not all tables will be used.<br>
 ## Final Presentation & Recommendations
 
 | Q2 2025 Report|Recommentations|
-|-----------------|-----------------------|
-| <img width="275" height="350" alt="image" src="https://github.com/user-attachments/assets/271eabf0-2ead-450b-b8b7-0b37e7866d90" /> | T
+|---------------------------------|--|
+| <img width="2300" height="500" alt="image" src="https://github.com/user-attachments/assets/271eabf0-2ead-450b-b8b7-0b37e7866d90" /> | The Look eCommerce is facing challenges common companys that growths fast. This challenges involves specially two areas one is marketing and the other is operations.<br>From the marketing it´s needed to star working on two projects. One should approach how to better reestructe the front end and user experice from the platformm to incentive sell up (to erase ASP) and cross selling to increase the numbers of item in each shopping Cart. Also need to work in a program of  that will reward customers who buys more than one time in the estore.<br>From the operations side it´s important to work in the backlog ue that there are considerable counts of orders that are beeing prepared bringing risk of returned or cancelled orders. Also there´s room to improve the delivery time working on deliveries that are above the mea.
+
 

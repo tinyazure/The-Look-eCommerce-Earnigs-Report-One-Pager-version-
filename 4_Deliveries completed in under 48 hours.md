@@ -83,9 +83,13 @@ Based on the analysis of 2025 Q2 orders with 'Complete' or 'Returned' status:
   * Calculate the delivery Average time for the period.
   * Calculate the count of delivered orderes above the average.
 ```sql
-select 
+select
   count(distinct order_id) as total_orders,
+  max(delivery_time_hours) as max_delivery_hours,  
+  min(delivery_time_hours) as min_delivery_hours,
   round(AVG(delivery_time_hours),0) as avg_delivery_hours,
+  max(delivery_time_days) as max_delivery_days,  
+  min(delivery_time_days) as min_delivery_days,
   round(AVG(delivery_time_days),1) as avg_delivery_days
 from
   (
@@ -107,9 +111,9 @@ from
     created_at asc
   )
 ```
-|index|total\_orders|avg\_delivery\_hours|avg\_delivery\_days|
-|---|---|---|---|
-|0|4266|96\.0|3\.5|
+|index|total\_orders|max\_delivery\_hours|min\_delivery\_hours|avg\_delivery\_hours|max\_delivery\_days|min\_delivery\_days|avg\_delivery\_days|
+|---|---|---|---|---|---|---|---|
+|0|4266|189|1|96\.0|7|0|3\.5|
 
 ```sql
 %%bigquery --project {project_id}

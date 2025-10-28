@@ -46,7 +46,7 @@ where
 
 ## 2nd Task:
  * Calculate 2Q 2025 and 2Q 2024 at a agregated Total Net Revenue level.
- * Calculate for each period, count orders and average order value sing GROUP BY, WHERE, clauses, count command and Date/Time format Functions, and UNION ALL.
+ * Calculate for each period, count orders and average order value sing GROUP BY, WHERE, clauses, count command and Date/Time format Functions.
 
 ```sql
 select
@@ -57,26 +57,11 @@ select
 from
   bigquery-public-data.thelook_ecommerce.order_items
 where
+  status IN ('Complete','Shipped', 'Processing') and
   extract(QUARTER FROM created_at) = 2 and
-  extract(YEAR FROM created_at) = 2025 and
-  status IN ('Complete','Shipped', 'Processing')
+  (extract(YEAR FROM created_at) = 2024 or extract(YEAR FROM created_at) = 2025) 
 group by
-  year_quarter
-
-UNION ALL
-select
-  FORMAT_DATETIME('%Y-%QQ', created_at) as year_quarter,
-  round(sum(sale_price),2)  as net_revenue,
-  count(distinct(order_id)) as count_order_id,
-  round(round(sum(sale_price),2) / count(distinct(order_id)),2) as average_order_value
-from
-  bigquery-public-data.thelook_ecommerce.order_items
-where
-  extract(QUARTER FROM created_at) = 2 and
-  extract(YEAR FROM created_at) = 2024 and
-  status IN ('Complete','Shipped', 'Processing')
-group by
-  year_quarter
+  (year_quarter)
 ```
 
 |index|year\_quarter|net\_revenue|count\_order\_id|average\_order\_value|
@@ -91,7 +76,34 @@ group by
 * Year-over-year prices remained relatively stable. It is recommended that the UX team optimize website interactions to encourage higher average order values and boost sales.
 * The operations team is advised to expedite order fulfillment to minimize Shipped and processed times, minimize stockouts in warehouses, and negotiate improved lead times with suppliers.
 
+## Expert Tip
+> Instead of running aditional query using UNION all to append the Totals it´s good to use the rollup function
+This would produce a sum of Sales Amount per each year quarter status combination as well, but also a row for year quarter sub-total and a grant total row for all regions.
+```sql
+select  
+  FORMAT_DATETIME('%Y-%QQ', created_at) as year_quarter,
+  status as order_status,
+  round(sum(sale_price),2)  as net_revenue,
+from
+  bigquery-public-data.thelook_ecommerce.order_items
+where
+  status IN ('Complete','Shipped', 'Processing') and
+  extract(QUARTER FROM created_at) = 2 and
+  (extract(YEAR FROM created_at) = 2024 or extract(YEAR FROM created_at) = 2025) 
+group by
+  rollup(year_quarter, order_status)
+```
 
-
+|index|year\_quarter|order\_status|net\_revenue|
+|---|---|---|---|
+|0|||1219582\.77|
+|1|2025-2Q||791298\.2|
+|2|2024-2Q||428284\.57|
+|3|2025-2Q|Processing|208176\.83|
+|4|2025-2Q|Complete|263862\.53|
+|5|2025-2Q|Shipped|319258\.84|
+|6|2024-2Q|Processing|109275\.49|
+|7|2024-2Q|Complete|140570\.86|
+|8|2024-2Q|Shipped|178438\.22|
 
 

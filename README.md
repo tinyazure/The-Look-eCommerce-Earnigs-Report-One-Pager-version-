@@ -42,7 +42,7 @@ For the porpouse of this project not all tables will be used.<br>
    * Insights:<br>
        -Revenue is growing based on more quantities of purchases vs same period last year, but average sales ticket remains flat.<br>
        -High risk on future returns and cancellations given that more than 50% of orders are in processing or shipped status.  
-   * [SQL Query Code] (1_Revenue and Year-over-Year Revenue Growth.md)  
+   * [SQL Query Code] (https://github.com/tinyazure/The-Look-eCommerce-Earnigs-Report-One-Pager-version-/blob/main/1_Revenue%20and%20Year-over-Year%20Revenue%20Growth.md)  
 2. Q2 2025 Number of Unique Buyers:    
    * 11516
    * Insights:<br>

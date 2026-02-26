@@ -6,9 +6,10 @@
 ## 1st Task:
  * Calculate Q2 2025 Net Revenue by Order Status and the 2025 aggregated net revenue.
  * Using GROUP BY, WHERE clause and Date/Time format functions and UNION ALL, to get the aggregated overview in only one table.
-    
+
+  
 ```sql
-select
+select  
   FORMAT_DATETIME('%Y-%QQ', created_at) as year_quarter,
   status as order_status,
   round(sum(sale_price),2)  as net_revenue,
